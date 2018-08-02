@@ -110,7 +110,7 @@ extend Concerns::Findable
      when 'exit'
        return
      else
-        puts "not a valid option"
+        exit
      end
 
 
